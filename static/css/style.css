@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f7fb;
+    color: #1f2937;
+}
+
+.container {
+    width: 92%;
+    max-width: 1400px;
+    margin: 30px auto;
+}
+
+/* Hero */
+
+.hero {
+    background: linear-gradient(135deg, #172554, #1e3a8a, #312e81);
+    color: white;
+    padding: 35px 40px;
+    border-radius: 18px;
+    margin-bottom: 30px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 17px;
+    color: #dbeafe;
+}
+
+/* Dashboard */
+
+.welcome {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.06);
+}
+
+.welcome h2 {
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.welcome p {
+    color: #6b7280;
+    font-size: 16px;
+}
